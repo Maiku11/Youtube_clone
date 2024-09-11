@@ -1,0 +1,11 @@
+const Button = ({ name }) => {
+    return (
+        <>
+            <button className="px-5 py-2 rounded-lg bg-gray-100 m-2">
+                {name}
+            </button>
+        </>
+    );
+};
+
+export default Button;
